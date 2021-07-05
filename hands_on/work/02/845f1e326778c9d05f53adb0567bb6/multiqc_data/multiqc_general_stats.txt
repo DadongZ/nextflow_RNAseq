@@ -1,0 +1,10 @@
+Sample	Salmon_mqc-generalstats-salmon-percent_mapped	Salmon_mqc-generalstats-salmon-num_mapped	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+gut	67.55192373169902	1984					
+gut_1			14.334354783792989	45.0	103.97957099080695	20.0	2937.0
+gut_2			14.164113040517535	45.0	105.0	30.0	2937.0
+liver	67.55192373169902	1984					
+liver_1			14.334354783792989	45.0	103.97957099080695	20.0	2937.0
+liver_2			14.164113040517535	45.0	105.0	30.0	2937.0
+lung	67.55192373169902	1984					
+lung_1			14.334354783792989	45.0	103.97957099080695	20.0	2937.0
+lung_2			14.164113040517535	45.0	105.0	30.0	2937.0

@@ -1,0 +1,68 @@
+Jul-05 10:19:45.734 [main] DEBUG nextflow.cli.Launcher - $> nextflow run rnaseq.nf -resume
+Jul-05 10:19:45.884 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.0
+Jul-05 10:19:45.911 [main] INFO  nextflow.cli.CmdRun - Launching `rnaseq.nf` [condescending_cori] - revision: 360deb6da2
+Jul-05 10:19:45.929 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/nextflow.config
+Jul-05 10:19:45.930 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/nextflow.config
+Jul-05 10:19:45.952 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 10:19:46.466 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/mounts/isilon/data/eahome/u1072932/.nextflow/plugins
+Jul-05 10:19:46.472 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-05 10:19:46.475 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/empty
+Jul-05 10:19:46.490 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 10:19:46.493 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 10:19:46.497 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jul-05 10:19:46.513 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 10:19:46.565 [main] DEBUG nextflow.Session - Session uuid: 5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c
+Jul-05 10:19:46.566 [main] DEBUG nextflow.Session - Run name: condescending_cori
+Jul-05 10:19:46.566 [main] DEBUG nextflow.Session - Executor pool size: 48
+Jul-05 10:19:46.616 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.0 build 5552
+  Created: 02-05-2021 16:22 UTC (12:22 EDT)
+  System: Linux 5.4.0-66-generic
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 11.0.9.1-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 1957@usadc-seaxp71 [10.2.76.71]
+  CPUs: 48 - Mem: 251.7 GB (37.6 GB) - Swap: 0 (0)
+Jul-05 10:19:46.677 [main] DEBUG nextflow.Session - Work-dir: /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/work [nfs]
+Jul-05 10:19:46.678 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/bin
+Jul-05 10:19:46.691 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-05 10:19:46.704 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 10:19:46.885 [main] DEBUG nextflow.Session - Session start invoked
+Jul-05 10:19:47.404 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 10:19:47.414 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: quantification, fastqc, index, multiqc
+Jul-05 10:19:47.427 [main] INFO  nextflow.Nextflow - R N A S E Q - N F   P I P E L I N E    
+===================================
+transcriptome: /mounts/isilon/data/eahome/u1072932/resource/nextflow/nf-training/data/ggal/transcriptome.fa
+reads        : /mounts/isilon/data/eahome/u1072932/resource/nextflow/nf-training/data/ggal/*_{1,2}.fq
+outdir       : /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/rnaseq_output
+
+Jul-05 10:19:47.525 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 10:19:47.525 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 10:19:47.531 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-05 10:19:47.539 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=48; memory=251.7 GB; capacity=48; pollInterval=100ms; dumpInterval=5m
+Jul-05 10:19:47.693 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mounts/isilon/data/eahome/u1072932/resource/nextflow/nf-training/data/ggal/; pattern: *_{1,2}.fq; options: [checkIfExists:true]
+Jul-05 10:19:47.761 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 10:19:47.762 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 10:19:47.772 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 10:19:47.772 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 10:19:47.794 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 10:19:47.795 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 10:19:47.803 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Jul-05 10:19:47.803 [main] DEBUG nextflow.Session - Session await
+Jul-05 10:19:47.906 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [0f/8ac6e6] Cached process > index
+Jul-05 10:19:47.906 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [04/6e36f1] Cached process > fastqc (FastqQC of gut)
+Jul-05 10:19:47.906 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [e1/cc113d] Cached process > fastqc (FastqQC of liver)
+Jul-05 10:19:47.906 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [80/d11e8e] Cached process > fastqc (FastqQC of lung)
+Jul-05 10:19:47.938 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [54/acad97] Cached process > quantification (gut)
+Jul-05 10:19:47.938 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [19/f0e6c3] Cached process > quantification (lung)
+Jul-05 10:19:47.938 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [55/a465e6] Cached process > quantification (liver)
+Jul-05 10:19:48.017 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-05 10:19:48.021 [Task submitter] INFO  nextflow.Session - [02/845f1e] Submitted process > multiqc (Multiqc)
+Jul-05 10:20:03.272 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: multiqc (Multiqc); status: COMPLETED; exit: 0; error: -; workDir: /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/work/02/845f1e326778c9d05f53adb0567bb6]
+Jul-05 10:20:03.281 [main] DEBUG nextflow.Session - Session await > all process finished
+Jul-05 10:20:03.284 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-05 10:20:03.286 [main] INFO  nextflow.Nextflow - 
+Done! Open the following report in your browser -->/mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/rnaseq_output/multiqc_report.html 
+
+Jul-05 10:20:03.293 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=7; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=15.2s; failedDuration=0ms; cachedDuration=1m 11s;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Jul-05 10:20:03.494 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Jul-05 10:20:03.515 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

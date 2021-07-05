@@ -1,0 +1,11 @@
+[WARNING]         multiqc : MultiQC Version v1.11 now available!
+[INFO   ]         multiqc : This is MultiQC v1.10.1
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching   : /mounts/isilon/data/eahome/u1072932/resource/nextflow/hands_on/work/02/845f1e326778c9d05f53adb0567bb6
+Searching   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 51/51  [INFO   ]          salmon : Found 3 meta reports
+[INFO   ]          salmon : Found 3 fragment length distributions
+[INFO   ]          fastqc : Found 6 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : multiqc_report.html
+[INFO   ]         multiqc : Data        : multiqc_data
+[INFO   ]         multiqc : MultiQC complete

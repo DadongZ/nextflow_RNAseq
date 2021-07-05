@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.5.1",
+    "threads": "4",
+    "libType": "U",
+    "index": "index",
+    "mates1": "liver_1.fq",
+    "mates2": "liver_2.fq",
+    "output": "liver",
+    "auxDir": "aux_info"
+}

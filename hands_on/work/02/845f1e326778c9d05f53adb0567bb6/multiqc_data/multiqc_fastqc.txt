@@ -1,0 +1,7 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+gut_1	gut_1.fq	Conventional base calls	Sanger / Illumina 1.9	2937.0	0.0	44-105	45.0	85.66564521620701	103.97957099080695	pass	pass	pass	fail	warn	pass	warn	pass	warn	fail
+gut_2	gut_2.fq	Conventional base calls	Sanger / Illumina 1.9	2937.0	0.0	105.0	45.0	85.83588695948247	105.0	pass	pass	pass	fail	fail	pass	pass	pass	warn	fail
+liver_1	liver_1.fq	Conventional base calls	Sanger / Illumina 1.9	2937.0	0.0	44-105	45.0	85.66564521620701	103.97957099080695	pass	pass	pass	fail	warn	pass	warn	pass	warn	fail
+liver_2	liver_2.fq	Conventional base calls	Sanger / Illumina 1.9	2937.0	0.0	105.0	45.0	85.83588695948247	105.0	pass	pass	pass	fail	fail	pass	pass	pass	warn	fail
+lung_1	lung_1.fq	Conventional base calls	Sanger / Illumina 1.9	2937.0	0.0	44-105	45.0	85.66564521620701	103.97957099080695	pass	pass	pass	fail	warn	pass	warn	pass	warn	fail
+lung_2	lung_2.fq	Conventional base calls	Sanger / Illumina 1.9	2937.0	0.0	105.0	45.0	85.83588695948247	105.0	pass	pass	pass	fail	fail	pass	pass	pass	warn	fail

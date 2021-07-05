@@ -1,0 +1,25 @@
+2021-07-04 20:30:28	1.4s	happy_leakey	OK	4924483bb2bb2f565617133c2bb952c2	0bbbecd6-52d2-43b8-9994-ad168da4364f	nextflow run rnaseq.nf
+2021-07-04 20:31:09	2s	amazing_wozniak	OK	268aa710e4dfd90118c6d2f9ba24ef65	45aefbd7-04f2-4536-bb74-4c9386391457	nextflow run rnaseq.nf
+2021-07-04 21:30:17	3.2s	festering_legentil	OK	46d550584b6ee44d0df4e04cd874a9d5	47293a56-36d0-4cf7-8a60-0c46f4558353	nextflow run rnaseq.nf
+2021-07-04 21:37:00	3.5s	fabulous_kowalevski	OK	1f98156ddaf5e4f2f0ee8ca8e9954762	d7657cc5-37a2-4c3c-92e7-9a1528c6b033	nextflow run rnaseq.nf
+2021-07-04 21:43:24	2.6s	nice_bartik	OK	1f98156ddaf5e4f2f0ee8ca8e9954762	949c28f8-306a-41c7-be17-7fa554bb09fe	nextflow run rnaseq.nf
+2021-07-04 21:45:02	2.6s	grave_albattani	OK	1f98156ddaf5e4f2f0ee8ca8e9954762	fe114a91-1238-4ab5-a26d-b565c422a977	nextflow run rnaseq.nf
+2021-07-05 09:09:29	-	sharp_hypatia	-	dde872d4aa12f922c0a92513b06948d3	2d3c257d-e843-4b5c-ac7e-b776872a1429	nextflow run rnaseq.nf
+2021-07-05 09:10:57	-	cranky_goldberg	-	b70270b714172f005a476ccb81189ac0	df33e251-0266-4550-9fde-51666ebdddcc	nextflow run rnaseq.nf
+2021-07-05 09:12:01	-	festering_nobel	-	177dfa129cd748cf71488da2529d38ab	79b0b3ef-8396-4e40-ae92-ac8cdbbab088	nextflow run rnaseq.nf
+2021-07-05 09:15:40	1.7s	festering_blackwell	ERR	6edcc71cc86ff15512ac006b931d06eb	3cbf3974-8cf1-437c-af78-7fc476f4de5a	nextflow run rnaseq.nf
+2021-07-05 09:16:39	4.2s	trusting_meucci	OK	6edcc71cc86ff15512ac006b931d06eb	09c0bcf5-7c1e-46db-941b-6a37c5a3ba9a	nextflow run rnaseq.nf
+2021-07-05 09:19:12	4.4s	magical_mayer	OK	6edcc71cc86ff15512ac006b931d06eb	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf
+2021-07-05 09:25:02	2.3s	pensive_sanger	OK	017b3e25bfb67b92c8de7ed49263a431	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:25:27	2.3s	serene_lichterman	OK	e9bdfaeb6cd9d0227332b81975dae191	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:43:58	-	angry_spence	-	7eb1dada75589ed8f34e1e9ac5d73387	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:51:28	-	zen_watson	-	89ac0b47a39e6c34bf42a9eb36dc5fc5	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:51:53	2.4s	serene_borg	ERR	476dfb2b828d5fd4a3c967401e27a3e0	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:53:48	2.9s	distraught_galileo	ERR	32504c163d580b07293d5f1a69644e11	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:58:46	2.4s	goofy_kalam	ERR	2668c9cfa3e8f73a4f8ca5c8721235fd	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 09:59:47	2.7s	cheeky_feynman	ERR	a329c756abef933c54900e50944ce967	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 10:02:45	2.7s	nasty_golick	ERR	2ee86ffc5e058bcc82646a442d0f28cb	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 10:04:48	2.1s	sleepy_lavoisier	ERR	87051fedfd81ab468f0e163c6ada931b	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 10:06:04	11.2s	big_heisenberg	OK	e4cce3817772c78e8151311d23ae5ea1	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 10:19:23	-	lethal_dijkstra	-	ff51206f2a1ec1fecd3b085c67cd585e	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
+2021-07-05 10:19:46	17.5s	condescending_cori	OK	360deb6da21b5e07e9004b590c4de006	5ff1df9a-fdf5-4d2a-8a1a-1d345c88340c	nextflow run rnaseq.nf -resume
